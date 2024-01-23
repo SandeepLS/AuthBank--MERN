@@ -60,7 +60,7 @@ export default function Signup() {
           <span className='text-blue-500'>Sign In</span>
         </Link>
       </div>
-      <p className='text-red-700 mt-5'>{error && 'Somrthing went wrong!'}</p>
+      <p className='text-red-700 mt-5'>{error && alert('Somrthing went wrong!')}</p>
     </div>
   )
 }
